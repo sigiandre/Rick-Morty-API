@@ -1,20 +1,42 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Bienvenidos a Rick y Morty
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col sizeMd="4" offsetMd="4">
+        <ion-item-divider>
+          <div style="width: 100%; text-align: center;">
+            <strong>Lista para crear una aplicación?</strong>
+            <p>Empiece con Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+            <p>Visitame a mi pagina web <a target="_blank" rel="noopener noreferrer" href="https://andrewprogramador.wixsite.com/cibernet">Pagina Web</a></p> 
+            <p>Visitame a mi red social <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/andre.diazquiroz">Facebook</a></p>
+          </div>
+        </ion-item-divider>
+        <ion-item-divider>
+          <div style="width: 100%; text-align: center;">
+            <ion-button href="userslist">
+              Rick and Morty
+              <ion-icon slot="end" name="star"></ion-icon>
+            </ion-button>
+          </div>
+        </ion-item-divider>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-title>
+      <div style="width: 100%; text-align: center;">
+        <p>Creado por: Sigi Andre Diaz Quiroz</p>
+      </div>
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>
